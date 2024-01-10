@@ -1,0 +1,157 @@
+html,header{
+    background-color: #000;
+}
+
+
+.jumbo {
+    font-size: 64px!important
+}
+.hide-small {
+    display: none!important
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:#757575!important;
+    margin: 0% 60px;
+  }
+  
+  header {
+    background-color: #000;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #666;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  #home {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: white;
+  }
+  
+ h2{
+    font-size: 30px;
+    color:white;
+    font-weight: 400;
+    margin: 10px 0;
+}
+ hr{
+    width:200px;
+    margin-left:inherit;
+    
+    opacity: .60;
+}
+
+    .about-me,.education,.skills,.contact{
+    margin-top: 25px;
+    padding: 20px;
+    
+    
+    
+  }
+p{
+    color:#757575!important;
+}
+  
+ li{
+    list-style-type: none;
+    
+ }
+ table{
+    table-layout: auto;
+    width: 100%;
+ }
+.skills li{
+    margin-left:-40px;
+    margin-top:25px;
+}
+.contact_form{
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    margin-left:40px;
+    padding-top: 20px;
+    margin-top: inherit;
+
+    
+
+
+
+}
+
+input,textarea{
+    border-style:inset;
+    
+    border-style:solid 2px; 
+    width: 210px;
+
+
+}
+input{
+    height:20px;
+}
+form ul{
+    display:flex;
+    flex-direction: column;
+    
+}
+form ul li{
+    margin-top: 20px;
+}
+button{
+    background-color:  #000;
+    color:white;
+    border-radius: 2px;
+    border-style: none;
+    margin: -20px 47px 23px;  
+    width: 200px;  
+    height: 50px;
+    font-size:20px ;
+}
+
+#submit:hover{
+    color: #333;
+}
+.icons img{
+    height: 25px;
+    width: 25px;
+}
+.icons a:hover{
+    opacity: .60;
+}
+
+.icon{
+    margin-bottom: 10px;
+}
